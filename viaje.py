@@ -63,7 +63,7 @@ class Viaje:
     def fecha1(self):
         return self.__fecha1
 
-    # /set
+ # /set
     @fecha1.setter
     def fecha1(self, valor):
         self.__fecha1 = valor
@@ -72,7 +72,7 @@ class Viaje:
     def fecha2(self):
         return self.__fecha2
 
-    # /set
+ # /set
     @fecha2.setter
     def fecha2(self, valor):
         self.__fecha2 = valor
@@ -80,35 +80,35 @@ class Viaje:
     @property
     def precio(self):
         return self.__precio
-     # /set
+ # /set
     @precio.setter
     def precio(self, valor):
         self.__precio = valor
 
-        # /get
+ # /get
 
     @property
     def npersona(self):
         return self.__npersona
 
-    # /set
+ # /set
     @npersona.setter
     def npersona(self, valor):
         self.__npersona = valor
 
-    # /get
+ # /get
     @property
     def cod(self):
             return self.__cod
 
-    # /set
+ # /set
     @cod.setter
     def cod(self, valor):
             self.__cod = valor
 
-    #/def __str__(self):
-       #/ cadena=
-     #/   return cadena
+ #/def __str__(self):
+ #/ cadena=
+ #/   return cadena
 
-   # def __str__(self) :
-    #    return self.__aerolinea,self.__origen,self.__destino,self.__duracion,self.__escala,self.__clase,self.__precio
+ # def __str__(self) :
+ #    return self.__aerolinea,self.__origen,self.__destino,self.__duracion,self.__escala,self.__clase,self.__precio
